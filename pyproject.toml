@@ -1,0 +1,14 @@
+[project]
+name = "genbmm"
+version = "0.1"
+dependencies = [
+  "torch"
+]
+authors = [
+  {name = "Alexander Rush", email = "arush@cornell.edu"}
+]
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools", "torch"]
+build-backend = "setuptools.build_meta"
